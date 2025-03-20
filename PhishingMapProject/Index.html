@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte des attaques de Phishing</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/topojson.v3.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Évolution des attaques de phishing dans le monde</h1>
+    <div id="timeline">
+        <input type="range" id="yearSlider" min="2010" max="2025" step="1" value="2020">
+        <span id="selectedYear">2020</span>
+    </div>
+    <div id="map-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
